@@ -1,5 +1,5 @@
 #Trabajo con taxonomía de aves
-#2025-10-23
+#2025-10-28
 #Catalina Marín Cruz
 
 #settings####
@@ -95,5 +95,6 @@ aves_corregido <- aves_sag %>%
                       nombre_cientifico_sag == revision_taxonomica_sag$canonicalName
                       ~ nombre_cientifico_sag
                     ))
+
 
 
